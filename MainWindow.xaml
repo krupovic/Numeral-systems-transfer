@@ -22,8 +22,11 @@
             </TabItem>
             <TabItem Header="Info">
                 <Grid Background="#FFE5E5E5">
-                    <Label Content="2022 &#10; Petr Kruppa &#10; Kuzma Skorkin &#10; Open-Source Project" HorizontalAlignment="Left" Margin="47,34,0,0" VerticalAlignment="Top" Height="195" Width="310"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="54,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Hyperlink NavigateUri="https://github.com/krupovic/Numeral-systems-transfer">GitHub</Hyperlink></TextBlock>
+
+                    <TextBlock x:Name="Copyright" HorizontalAlignment="Left" Margin="17,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="455" Background="{x:Null}" Height="249" FontFamily="Bahnschrift SemiBold" FontStyle="Italic"/>
+                    <TextBlock Margin="17,259,277,17" TextWrapping="Wrap" Height="30" Width="200">
+			            <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://github.com/krupovic/Numeral-systems-transfer">Project on GitHub</Hyperlink>
+                    </TextBlock>
                 </Grid>
             </TabItem>
         </TabControl>
