@@ -1,0 +1,30 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="Numeral systems calculator" Height="350" Width="500">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Count">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="N_number" HorizontalAlignment="Left" Margin="27,49,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="150" Height="50" FontSize="18" FontFamily="Bahnschrift SemiBold" TextAlignment="Justify" FontWeight="Normal" FontStyle="Normal"/>
+                    <TextBox x:Name="M_number" HorizontalAlignment="Left" Margin="217,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="50" FontSize="18" FontFamily="Bahnschrift SemiBold" TextAlignment="Left"/>
+                    <Button Content="Transfer!" HorizontalAlignment="Left" Height="40"  Margin="27,209,0,0" VerticalAlignment="Top" Width="80" Click="ButtonClicked"/>
+                    <Label Content="Transfer-from numeral system" HorizontalAlignment="Left" Margin="18,24,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Height="50"/>
+                    <Label Content="Transfer-to numeral system" HorizontalAlignment="Left" Margin="215,24,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Height="50"/>
+                    <TextBox x:Name="X_number" HorizontalAlignment="Left" Margin="27,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="343" Height="50" FontSize="22" FontFamily="Bahnschrift SemiBold"/>
+                    <Label Content="Number to transfer" HorizontalAlignment="Left" Margin="143,102,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Left"/>
+                    <Label x:Name="Answer" Content="" HorizontalAlignment="Left" Margin="117,209,0,0" VerticalAlignment="Top" Height="50" Width="350" FontSize="22" FontFamily="Bahnschrift SemiBold"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Info">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="2022 &#10; Petr Kruppa &#10; Kuzma Skorkin &#10; Open-Source Project [GitHub link]" HorizontalAlignment="Left" Margin="47,34,0,0" VerticalAlignment="Top" Height="195" Width="310"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
