@@ -22,7 +22,7 @@
             </TabItem>
             <TabItem Header="Info">
                 <Grid Background="#FFE5E5E5">
-                    <Label Content="2022 &#10; Petr Kruppa &#10; Kuzma Skorkin &#10; Open-Source Project [GitHub link]" HorizontalAlignment="Left" Margin="47,34,0,0" VerticalAlignment="Top" Height="195" Width="310"/>
+                    <Label Content="2022 &#10; Petr Kruppa &#10; Kuzma Skorkin &#10; Open-Source Project &#10; https://github.com/krupovic/Numeral-systems-transfer" HorizontalAlignment="Left" Margin="47,34,0,0" VerticalAlignment="Top" Height="195" Width="310"/>
                 </Grid>
             </TabItem>
         </TabControl>
