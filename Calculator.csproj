@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="OSIApproved_1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="OSIApproved_1.png" />
+  </ItemGroup>
+
 </Project>

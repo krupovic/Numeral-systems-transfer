@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="Numeral systems calculator" Height="370" Width="500">
+        Title="Numeral systems calculator" Height="380" Width="500">
     <Grid>
         <TabControl>
             <TabItem Header="Count">
@@ -24,9 +24,10 @@
                 <Grid Background="#FFE5E5E5">
 
                     <TextBlock x:Name="Copyright" HorizontalAlignment="Left" Margin="17,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="455" Background="{x:Null}" Height="249" FontFamily="Bahnschrift SemiBold" FontStyle="Italic"/>
-                    <TextBlock Margin="17,259,277,17" TextWrapping="Wrap" Height="30" Width="200">
+                    <TextBlock Margin="17,259,277,17" TextWrapping="Wrap" Height="30" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top">
 			            <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://github.com/krupovic/Numeral-systems-transfer">Project on GitHub</Hyperlink>
                     </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="85" Margin="132,224,0,0" VerticalAlignment="Top" Width="85" Source="/OSIApproved_1.png"/>
                 </Grid>
             </TabItem>
         </TabControl>
