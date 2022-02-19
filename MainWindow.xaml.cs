@@ -35,16 +35,7 @@ namespace Calculator
             int m = int.Parse(M_number.Text);
             string x = X_number.Text;
             bool correct = true;
-            foreach (char i in x)
-            {
-                if (alphabet.IndexOf(i) == -1)
-                {
-                    MessageBox.Show("Введённые данные некорректны!");
-                    correct = false;
-                    X_number.Text = "";
-                    break;
-                }
-            }
+            
 
             if ((n <= 1 || n > 32) && (m <= 1 || m > 32))
             {
@@ -66,7 +57,19 @@ namespace Calculator
                 correct = false;
             }
 
+            foreach (char i in x)
+            {
+                if (alphabet.IndexOf(i) == -1 || alphabet.IndexOf(i) >= n)
+                {
+                    MessageBox.Show("Введённые данные некорректны!");
+                    correct = false;
+                    X_number.Text = "";
+                }
+            }
+
             if (correct) Answer.Content = ($"Your answer is: {Transfer(n, m, x)}");
+
+            
 
         }
 
