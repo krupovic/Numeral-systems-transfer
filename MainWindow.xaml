@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="Numeral systems calculator" Height="350" Width="500">
+        Title="Numeral systems calculator" Height="370" Width="500">
     <Grid>
         <TabControl>
             <TabItem Header="Count">
