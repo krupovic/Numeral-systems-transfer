@@ -64,6 +64,7 @@ namespace Calculator
                     MessageBox.Show("Введённые данные некорректны!");
                     correct = false;
                     X_number.Text = "";
+                    break;
                 }
             }
 

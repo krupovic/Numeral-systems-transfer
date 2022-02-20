@@ -15,7 +15,7 @@
                     <Button Content="Transfer!" HorizontalAlignment="Left" Height="40"  Margin="27,209,0,0" VerticalAlignment="Top" Width="80" Click="ButtonClicked"/>
                     <Label Content="Transfer-from numeral system" HorizontalAlignment="Left" Margin="18,24,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Height="25"/>
                     <Label Content="Transfer-to numeral system" HorizontalAlignment="Left" Margin="215,24,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Height="25"/>
-                    <TextBox x:Name="X_number" HorizontalAlignment="Left" Margin="27,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="343" Height="50" FontSize="22" FontFamily="Bahnschrift SemiBold"/>
+                    <TextBox x:Name="X_number" HorizontalAlignment="Left" Margin="27,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="343" Height="50" FontSize="22" FontFamily="Bahnschrift SemiBold"/>
                     <Label Content="Number to transfer" HorizontalAlignment="Left" Margin="143,102,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Left"/>
                     <Label x:Name="Answer" Content="" HorizontalAlignment="Left" Margin="117,209,0,0" VerticalAlignment="Top" Height="50" Width="350" FontSize="22" FontFamily="Bahnschrift SemiBold"/>
                 </Grid>
