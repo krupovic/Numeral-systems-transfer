@@ -68,7 +68,7 @@ namespace Calculator
                 }
             }
 
-            if (correct) Answer.Content = ($"Your answer is: {Transfer(n, m, x)}");
+            if (correct) Answer.Content = $"Your answer is: {Transfer(n, m, x)}";
 
             
 
@@ -99,14 +99,14 @@ namespace Calculator
                 };
 
                 ans.Reverse();
-                return String.Join('\0', ans);
+                return string.Join('\0', ans);
             }
 
             return DecToM(NToDec(x, n), m);
 
         }
 
-        private void Hyperlink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
+        private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
             Process.Start(new ProcessStartInfo(e.Uri.AbsoluteUri) { UseShellExecute = true });
             e.Handled = true;

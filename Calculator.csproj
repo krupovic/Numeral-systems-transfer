@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="icon.ico" />
     <None Remove="OSIApproved_1.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="icon.ico" />
     <Resource Include="OSIApproved_1.png" />
   </ItemGroup>
 
